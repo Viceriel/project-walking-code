@@ -46,3 +46,11 @@ Windows: Visual Studio (tested on VS 2015)
 3. `git rebase master` to stay up to date with changes on master branch (this might result in conflicts which you need to
   resolve manually).
 4. When done, open pull request and wait for one of the other collaborators to review your code.
+
+# Style guide
+
+1. Rule of the thumb, look a the existing code and follow that.
+2. Use spaces instead of tabs (4 spaces per tab).
+3. Curly brackets generally start at new line (for functions, ifs, fors, etc.)
+4. `SHOUTING_SNAKE_CASE` for preprocessor macros (NOT for constants), `PascalCase` for class, structs and such, `camelCase` for
+  class members, functions, local variables and such.
