@@ -39,13 +39,7 @@ Windows: Visual Studio (tested on VS 2015)
   to resolve manually).
 5. When done, open pull request and wait for one of the collaborators to review your code.
 
-# Collaboration guide
-
-1. `git clone https://github.com/jozef-mitro/project-walking-code.git`
-2. `git checkout -b feature/NAME_OF_YOUR_FEATURE` to create and checkout sepparate branch for your feature.
-3. `git rebase master` to stay up to date with changes on master branch (this might result in conflicts which you need to
-  resolve manually).
-4. When done, open pull request and wait for one of the other collaborators to review your code.
+Or equivalent in your git gui clinet of choice.
 
 # Style guide
 
@@ -54,3 +48,10 @@ Windows: Visual Studio (tested on VS 2015)
 3. Curly brackets generally start at new line (for functions, ifs, fors, etc.)
 4. `SHOUTING_SNAKE_CASE` for preprocessor macros (NOT for constants), `PascalCase` for class, structs and such, `camelCase` for
   class members, functions, local variables and such.
+
+# Some "usefull" links
+
+- [Video tutorial for generating Visual Studio Solution using CMake](https://www.youtube.com/watch?v=gYmgbqGfv-8)
+- [How to fork a github repository](https://help.github.com/articles/fork-a-repo/)
+- [How to keep your fork updated](http://stackoverflow.com/questions/7244321/how-to-update-a-github-forked-repository)
+- [Somewhat more thorough description of sample git workflow](https://musescore.org/en/developers-handbook/git-workflow)
